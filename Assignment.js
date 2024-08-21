@@ -63,3 +63,37 @@ const userProfile = {
   [propertyName]: 'fsharayri'
 }
 console.log(userProfile)
+
+//#8
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+function describe(noun='cat', adjective='white') {
+  console.log(`The ${noun} is ${adjective}.`)
+}
+describe()
+describe('dog','brown')
+
+//#9
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+  console.log('yum');
+} else {
+  console.log('yuck');
+}
+
+// Your code here
+pizza==='tasty'? console.log('yum'):console.log('yuck')
+//or even more simplified 
+console.log(pizza==='tasty'?'yum':'yuck')
+
+//#10
